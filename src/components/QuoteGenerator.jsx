@@ -21,7 +21,7 @@ function QuoteGenerator() {
     setCurrentQuote(quote);
 
     try {
-      const response = await axios.post('https://programming-quotesapi.vercel.app/api/random', { quotes: quote });
+      const response = await axios.post('http://localhost:5006/api/quotes', { quotes: quote });
       console.log('Saved to DB:', response.data);
     } catch (error) {
       console.error('Error saving quote:', error);
