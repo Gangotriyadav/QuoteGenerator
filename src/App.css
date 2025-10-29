@@ -1,41 +1,4 @@
-/* body{
-  justify-content: center;
-  align-items: center;
-  background-color: pink;
-  color: white;
-}
-
-.quote-generator {
-  text-align: center;
-  margin: 20px;
-  color: white;
-}
-
-.generate-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.generate-button:hover {
-  background-color: #0056b3;
-}
-
-.quote-display {
-  margin-top: 20px;
-  font-size: 18px;
-  font-style: italic;
-  color: white;
-}
-
- */
-
-
- body {
+body {
   display: flex;
   justify-content: center;
   align-items: center;
