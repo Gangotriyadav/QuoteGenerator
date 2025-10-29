@@ -30,11 +30,13 @@ function QuoteGenerator() {
 
   return (
     <div className="quote-generator">
-      <button onClick={generateQuote} className="generate-button">Generate Quote</button>
+
       {currentQuote && <p className="quote-display">{currentQuote}</p>}
+       <button onClick={generateQuote} className="generate-button">Generate Quote</button>
     </div>
   );
 }
 
 export default QuoteGenerator;
+
 
